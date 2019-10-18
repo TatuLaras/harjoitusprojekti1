@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homepage</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Marcellus SC', serif;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            #wrapper {
+                width: 100vw;
+                height: 100vh;
+                background-image: url('./images/tausta1.jpg');
+                background-size: cover;
+            }
+
+            h1 {
+                font-size: 5em;
+                padding-left: 5vw;
+                padding-top: 5vh;
+                font-weight: normal;
+            }
+
+            h2 {
+                font-weight: normal;
+            }
+
+            #quote {
+                font-size: 1.6em;
+                max-width: 500px;
+                padding-left: 6vw;
+                padding-top: 3vh;
+            }
+
+            #favourites {
+                padding-left: 6vw;
+                padding-top: 8vh;
+            }
+
+            #icons {
+                padding-top: 3vh;
+                padding-left: 1vw;
+                height: 120px;
+            }
+
+            .icon {
+                height: 100px;
+                width: 100px;
+                padding: 10px 10px;
+                text-align: center;
+                border-radius: 10%;
+                float: left;
+            }
+
+            .icon:hover {
+                background-color: rgba(0, 0, 0, 0.05);
+                box-shadow: 0 0 5px lightgray;
+            }
+
+            .icon-text {
+                padding-top: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Welcome home</h1>
+            <div id="quote">
+                <p>
+                    <i>"A ship is safe in harbor, but that's not what ships are for."</i> -William
+                    Shedd
+                </p>
+            </div>
+            <div id="favourites">
+                <h2>Your favourites:</h2>
+                <div id="icons">
+                    <a href="https://youtube.com"
+                        ><div class="icon">
+                            <img src="./images/logo-youtube.png" width="75px" />
+                            <span class="icon-text">YouTube</span>
+                        </div></a
+                    >
+                    <a href="https://twitter.com">
+                        <div class="icon">
+                            <img src="./images/logo-twitter.png" width="75px" />
+                            <span class="icon-text">Twitter</span>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com">
+                        <div class="icon">
+                            <img src="./images/logo-instagram.png" width="75px" />
+                            <span class="icon-text">Instagram</span>
+                        </div>
+                    </a>
+                    <a href="https://reddit.com">
+                        <div class="icon">
+                            <img src="./images/logo-reddit.png" width="75px" />
+                            <span class="icon-text">Reddit</span>
+                        </div>
+                    </a>
+                    <a href="https://gmail.com">
+                        <div class="icon">
+                            <img src="./images/logo-gmail.png" width="75px" />
+                            <span class="icon-text">Gmail</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
